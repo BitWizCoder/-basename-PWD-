@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "postcss src/style.css -o dist/style.css --watch",
-    "dev": "npm run build && live-server index.html --port=8080"
+    "live": "live-server index.html --port=8080"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",

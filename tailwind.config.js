@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
     extend: {
       colors: {
         Primary: {
-          500: '#E8491D',
+          500: '#259CE2',
         },
         Secondary: {
           500: '#35424A',
@@ -13,7 +13,7 @@ module.exports = {
       },
       fontFamily: {
         'roboto': ["Roboto", "serif"],
-      },
+      }
     },
   },
   plugins: [],
