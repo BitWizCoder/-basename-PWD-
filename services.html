@@ -1,112 +1,158 @@
 <!doctype html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/style.css" rel="stylesheet" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../dist/style.css" rel="stylesheet">
-</head>
-
-<body class="font-roboto">
-
+  <body class="flex min-h-screen flex-col font-roboto">
     <!-- Header -->
-    <header class="bg-Secondary-500 text-white border-b-4 border-Primary-500">
-        <nav class="container sm:mx-auto flex justify-between items-center flex-col sm:flex-row py-5 gap-4 px-5">
-            <div>
-                <a href="/"><img src="../images/Logo.png" alt="site logo"></a>
-            </div>
+    <header class="border-b-4 border-Primary-500 bg-Secondary-500 text-white">
+      <nav
+        class="container flex flex-col items-center justify-between gap-4 px-5 py-5 sm:mx-auto sm:flex-row"
+      >
+        <div>
+          <a href="/"><img src="../images/Logo.png" alt="site logo" /></a>
+        </div>
 
-
-            <div>
-                <ul class="flex gap-8">
-                    <li class="hover:text-Primary-500"><a href="/">Home</a></li>
-                    <li class="hover:text-Primary-500"><a href="./about.html">About</a></li>
-                    <li class=" text-Primary-500"><a href="./services.html">Services</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div>
+          <ul class="flex gap-8">
+            <li class="hover:text-Primary-500"><a href="/">Home</a></li>
+            <li class="hover:text-Primary-500">
+              <a href="./about.html">About</a>
+            </li>
+            <li class="text-Primary-500">
+              <a href="./services.html">Services</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <!-- Services -->
-    <div class="container mx-auto flex flex-col lg:flex-row gap-8 px-5 w-full">
-        <div class="mt-12">
-            <h3 class="text-2xl mb-3">Services</h3>
-            <div class="grid grid-cols-3 gap-6">
-                <div class="bg-slate-200 p-4 rounded">
-                    <h3>UI/UX Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Odio porta scelerisque aliquam eu arcu egestas donec
-                        mauris. Morbi purus quis in viverra. Vulputate vitae tempus ullamcorper tellus quisque mi.
-                        Placerat rhoncus mi condimentum mauris nec. Viverra est mattis euismod orci fames in. Varius
-                        eros mi convallis nec.</p>
-                </div>
+    <div class="container mx-auto flex flex-col gap-8 px-5 lg:flex-row">
+      <div class="mt-12">
+        <h3 class="mb-3 text-2xl">Services</h3>
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+          <div class="rounded bg-slate-200 p-4">
+            <h3>UI/UX Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Odio porta scelerisque
+              aliquam eu arcu egestas donec mauris. Morbi purus quis in viverra.
+              Vulputate vitae tempus ullamcorper tellus quisque mi. Placerat
+              rhoncus mi condimentum mauris nec. Viverra est mattis euismod orci
+              fames in. Varius eros mi convallis nec.
+            </p>
+          </div>
 
-                <div class="bg-slate-200 p-4 rounded">
-                    <h3>UI/UX Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Odio porta scelerisque aliquam eu arcu egestas donec
-                        mauris. Morbi purus quis in viverra. Vulputate vitae tempus ullamcorper tellus quisque mi.
-                        Placerat rhoncus mi condimentum mauris nec. Viverra est mattis euismod orci fames in. Varius
-                        eros mi convallis nec.</p>
-                </div>
+          <div class="rounded bg-slate-200 p-4">
+            <h3>UI/UX Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Odio porta scelerisque
+              aliquam eu arcu egestas donec mauris. Morbi purus quis in viverra.
+              Vulputate vitae tempus ullamcorper tellus quisque mi. Placerat
+              rhoncus mi condimentum mauris nec. Viverra est mattis euismod orci
+              fames in. Varius eros mi convallis nec.
+            </p>
+          </div>
 
-                <div class="bg-slate-200 p-4 rounded">
-                    <h3>UI/UX Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Odio porta scelerisque aliquam eu arcu egestas donec
-                        mauris. Morbi purus quis in viverra. Vulputate vitae tempus ullamcorper tellus quisque mi.
-                        Placerat rhoncus mi condimentum mauris nec. Viverra est mattis euismod orci fames in. Varius
-                        eros mi convallis nec.</p>
-                </div>
+          <div class="rounded bg-slate-200 p-4">
+            <h3>UI/UX Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Odio porta scelerisque
+              aliquam eu arcu egestas donec mauris. Morbi purus quis in viverra.
+              Vulputate vitae tempus ullamcorper tellus quisque mi. Placerat
+              rhoncus mi condimentum mauris nec. Viverra est mattis euismod orci
+              fames in. Varius eros mi convallis nec.
+            </p>
+          </div>
 
-                <div class="bg-slate-200 p-4 rounded">
-                    <h3>UI/UX Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Odio porta scelerisque aliquam eu arcu egestas donec
-                        mauris. Morbi purus quis in viverra. Vulputate vitae tempus ullamcorper tellus quisque mi.
-                        Placerat rhoncus mi condimentum mauris nec. Viverra est mattis euismod orci fames in. Varius
-                        eros mi convallis nec.</p>
-                </div>
+          <div class="rounded bg-slate-200 p-4">
+            <h3>UI/UX Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Odio porta scelerisque
+              aliquam eu arcu egestas donec mauris. Morbi purus quis in viverra.
+              Vulputate vitae tempus ullamcorper tellus quisque mi. Placerat
+              rhoncus mi condimentum mauris nec. Viverra est mattis euismod orci
+              fames in. Varius eros mi convallis nec.
+            </p>
+          </div>
 
-                <div class="bg-slate-200 p-4 rounded">
-                    <h3>UI/UX Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Odio porta scelerisque aliquam eu arcu egestas donec
-                        mauris. Morbi purus quis in viverra. Vulputate vitae tempus ullamcorper tellus quisque mi.
-                        Placerat rhoncus mi condimentum mauris nec. Viverra est mattis euismod orci fames in. Varius
-                        eros mi convallis nec.</p>
-                </div>
-            </div>
+          <div class="rounded bg-slate-200 p-4">
+            <h3>UI/UX Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Odio porta scelerisque
+              aliquam eu arcu egestas donec mauris. Morbi purus quis in viverra.
+              Vulputate vitae tempus ullamcorper tellus quisque mi. Placerat
+              rhoncus mi condimentum mauris nec. Viverra est mattis euismod orci
+              fames in. Varius eros mi convallis nec.
+            </p>
+          </div>
         </div>
-        <div class="bg-Secondary-500 py-6 px-6 mt-[90px] rounded">
-            <h3 class="text-white text-center mb-4 font-bold">Get A Quote</h3>
-            <div class="flex flex-col gap-6 ">
-                <input type="text" placeholder="Enter E-mail.." class="py-3 rounded-sm px-2 inline-block">
-                <input type="text" placeholder="Enter E-mail.." class="py-3 rounded-sm px-2 inline-block">
-                <input type="text" placeholder="Enter E-mail.." class=" rounded-smbg-slate-200 p-4 rounded h-32">
-                <button
-                    class="bg-Primary-500 hover:bg-Secondary-500 hover:text-Primary-500 border border-Primary-500 text-white py-3 px-6 rounded-sm">Subscribe</button>
-            </div>
+      </div>
+      <div class="mt-2 lg:mt-[90px]">
+        <div class="rounded bg-Secondary-500 p-4">
+          <h3 class="mb-4 text-center font-bold text-white">Get A Quote</h3>
+          <div class="flex flex-col gap-6">
+            <input
+              type="text"
+              placeholder="Enter E-mail.."
+              class="inline-block rounded-sm px-2 py-2"
+            />
+            <input
+              type="text"
+              placeholder="Enter E-mail.."
+              class="inline-block rounded-sm px-2 py-2"
+            />
+            <textarea
+              class="rounded p-2"
+              rows="3"
+              cols="20"
+              name="message"
+              id="message"
+              placeholder="Message"
+            ></textarea>
+            <button
+              class="rounded-sm border border-Primary-500 bg-Primary-500 px-6 py-2 text-white hover:bg-Secondary-500 hover:text-Primary-500"
+            >
+              Subscribe
+            </button>
+          </div>
         </div>
+      </div>
     </div>
 
-
-
     <!-- Newsletter -->
-    <div class="bg-Secondary-500 mt-16">
-
-        <div class="container sm:mx-auto px-5 flex flex-col sm:flex-row justify-between items-center py-4">
-            <h3 class="text-white py-4 text-2xl">Subscribe To Our Newsletter</h3>
-            <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-                <input type="text" placeholder="Enter E-mail.." class="py-3 rounded-sm px-2">
-                <button
-                    class="bg-Primary-500 hover:bg-Secondary-500 hover:text-Primary-500 border border-Primary-500 text-white py-3 px-6 rounded-sm">Subscribe</button>
-            </div>
+    <div class="mt-16 bg-Secondary-500 lg:mt-auto">
+      <div
+        class="container flex flex-col items-center justify-between px-5 py-4 sm:mx-auto sm:flex-row"
+      >
+        <h3 class="py-4 text-2xl text-white">Subscribe To Our Newsletter</h3>
+        <div class="flex w-full flex-col gap-4 sm:w-auto sm:flex-row">
+          <input
+            type="text"
+            placeholder="Enter E-mail.."
+            class="rounded-sm px-2 py-3"
+          />
+          <button
+            class="rounded-sm border border-Primary-500 bg-Primary-500 px-6 py-3 text-white hover:bg-Secondary-500 hover:text-Primary-500"
+          >
+            Subscribe
+          </button>
         </div>
+      </div>
     </div>
 
     <!-- Footer -->
-    <div class="bg-Primary-500 text-white text-center py-6">
-        <p class="mb-2">Acme Web Design. All Rights Reserved.</p>
-        <p>Copyright ©
-            <script>document.write(new Date().getUTCFullYear());</script>
-        </p>
+    <div class="bg-Primary-500 py-6 text-center text-white">
+      <p class="mb-2">Acme Web Design. All Rights Reserved.</p>
+      <p>
+        Copyright ©
+        <script>
+          document.write(new Date().getUTCFullYear());
+        </script>
+      </p>
     </div>
-</body>
-
+  </body>
 </html>
